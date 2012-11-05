@@ -1,0 +1,294 @@
+#container {
+	width: 960px;
+	padding: 10px;
+	background: #e3e3e3;
+	margin: 50px auto 0px;
+}
+
+.logoContainer1 {
+	position: relative;
+	float: left;
+
+	height: 145px;
+	width: 100px;
+	padding: 25px;
+
+	background: white;
+}
+
+.logoContainer1 img {
+	position: absolute;
+	top: -150px;
+}
+
+@-webkit-keyframes boxBottom {
+	0% {
+		top: -150px; }
+	15%, 100% {
+		top: 104px; }
+}
+
+
+@-webkit-keyframes ribbonAnimation {
+	0% {
+		top: -150px; }
+	15%, 100% {
+		top: 104px; }
+}
+
+@-webkit-keyframes glow {
+	0%, 100% {
+		box-shadow: 0 0 0px white;
+		-webkit-box-shadow: 0 0 0px white;
+		-moz-box-shadow: 0 0 0px white;
+	}
+	50% {
+		box-shadow: 0 0 5px #73a731;
+		-webkit-box-shadow: 0 0 5px #73a731; 
+		-moz-box-shadow: 0 0 5px #73a731;
+	}
+}
+
+/*
+@keyframes boxBottom {
+  0%, 50% {
+    top: 0px; }
+
+  100% {
+	bottom: 0px; } }
+
+@-moz-keyframes boxBottom {
+  0%, 7% {
+    -moz-transform: scale(1) rotate(0deg); }
+
+  100% {
+    -moz-transform: scale(1) rotate(360deg); } }
+
+@-o-keyframes boxBottom {
+  0%, 7% {
+    -webkit-transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(360deg); } } */
+
+.logoContainer1 .bottom {
+	top: -150px;
+	-webkit-animation: boxBottom 3s ease 0s 1 normal forwards;
+}
+
+.logoContainer1 .top {
+	margin-top: -57px;
+	top: -150px;
+	-webkit-animation: boxBottom 2.75s ease .25s 1 normal forwards;
+}
+
+.logoContainer1 .ribbon {
+	margin-top: -103px;
+	top: -150px;
+	-webkit-animation: ribbonAnimation 2.5s ease .5s 1 normal forwards;
+}
+
+
+
+
+
+
+
+.logoContainer2 {
+	position: relative;
+	float: left;
+	margin-left: 50px;
+
+	height: 145px;
+	width: 100px;
+	padding: 25px;
+
+	background: white;
+}
+
+
+
+
+
+
+
+.logoContainer3 {
+	position: relative;
+	float: left;
+	margin-left: 50px;
+
+	height: 145px;
+	width: 101px;
+	padding: 25px;
+
+	background: white;
+}
+
+.logoContainer3 img {
+	position: relative;
+	float: left;
+}
+
+
+@-webkit-keyframes theDrop {
+	0% {
+		top: -225px; }
+	100% {
+		top: 0px; }
+}
+
+.logoContainer3 .BL {
+	margin-top: 12px;
+	top: -150px;
+	-webkit-animation: theDrop .4s ease 0s 1 normal forwards;
+}
+
+.logoContainer3 .BR {
+	margin-top: 11px;
+	top: -225px;
+	-webkit-animation: theDrop .4s ease .13s 1 normal forwards;
+}
+
+.logoContainer3 .TL {
+	top: -225px;
+	-webkit-animation: theDrop .4s ease .4s 1 normal forwards;
+}
+
+.logoContainer3 .TR {
+	top: -225px;
+	-webkit-animation: theDrop .4s ease .53s 1 normal forwards;
+}
+
+.logoContainer3 .ribbon1 {
+	margin-bottom: 9px;
+	top: -225px;
+	-webkit-animation: theDrop .6s ease .95s 1 normal forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+.logoContainer4 {
+	position: relative;
+	float: left;
+	margin-left: 50px;
+
+	height: 145px;
+	width: 101px;
+	padding: 25px;
+
+	background: white;
+}
+
+.logoContainer4 img {
+	position: relative;
+	float: left;
+}
+
+
+
+
+.logoContainer4 .ribbon1 {
+	margin-bottom: 9px;
+}
+
+.logoContainer4 .BR {
+	margin-top: 11px;
+}
+
+.logoContainer4 .BL {
+	margin-top: 12px;
+}
+
+@-webkit-keyframes explosivePerks_ribbon {
+	0%, 15%, 80%, 100% {
+		top: 0px; }
+	65%, 69% {
+		top: -60px; }
+
+}
+
+.logoContainer4 .ribbon1 {
+	margin-bottom: 9px;
+	top: 0px;
+	-webkit-animation: explosivePerks_ribbon 1s ease 1.3s 1 normal forwards;
+	/*-webkit-animation: explosivePerks_ribbon 1s ease .6s 1 normal forwards;*/
+}
+
+@-webkit-keyframes explosivePerks_BL {
+	0%,100% {
+		right: 0px;
+		top: 0px; }
+	65%, 67% {
+		right: 45px;
+		top: 45px; }
+}
+
+.logoContainer4 .BL {
+	margin-top: 12px;
+	top: 0px;
+	-webkit-animation: explosivePerks_BL 1s ease .30s 1 normal forwards;
+}
+
+@-webkit-keyframes explosivePerks_BR {
+	0%,100% {
+		left: 0px;
+		top: 0px; }
+	65%, 67% {
+		left: 45px;
+		top: 45px; }
+}
+
+.logoContainer4 .BR {
+	margin-top: 11px;
+	top: 0px;
+	-webkit-animation: explosivePerks_BR 1s ease .15s 1 normal forwards;
+}
+
+@-webkit-keyframes explosivePerks_TL {
+	0%,100% {
+		left: 0px;
+		top: 0px; }
+	65%, 67% {
+		left: -45px;
+		top: -45px; }
+}
+
+.logoContainer4 .TL {
+	top: 0px;
+	-webkit-animation: explosivePerks_TL 1s ease .45s 1 normal forwards;
+}
+
+@-webkit-keyframes explosivePerks_TR {
+	0%,100% {
+		left: 0px;
+		top: 0px; }
+	65%, 67% {
+		left: 45px;
+		top: -45px; }
+}
+
+.logoContainer4 .TR {
+	top: 0px;
+	-webkit-animation: explosivePerks_TR 1s ease 0s 1 normal forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
